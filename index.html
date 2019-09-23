@@ -4,55 +4,57 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Web Frame | Home</title>
+        <title>Wan Firdaus</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
         <header>
-            <div class="container">
+            <section class="container">
                 <div id="branding">
-                    <h1><span class="highlight">Test</span> Website</h1>
+                    <h1><span class="highlight">Wan </span> Firdaus</h1>
                 </div>
 
                 <nav>
-                    <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
+                    <ul class="nav-bar">
+                        <li class="current">
+                            <a href="index.html">
+                                <h5>Home</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="resume.html">
+                                <h5>Resume</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">
+                                <h5>Contact</h5>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
-            </div>
+            </section>
+            <section id="showcase">
+                <div class="container">
+                    <h1>Introduction</h1>
+                    <p>
+                        I was never the best in the school or academics, I'm
+                        just really have this interest and passion in codings
+                        thats make me pursue it as my profession. I've been
+                        working on a few freelance project here and there and
+                        thats make me believe that i can survive in this
+                        industry. I'm hoping that I can learn much more when I
+                        get expose to the industry in a more formal way.
+                    </p>
+                </div>
+            </section>
         </header>
-
-        <section id="showcase">
-            <div class="container">
-                <h1>This is the standard Web Frame</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec facilisis, neque quis eleifend hendrerit, eros urna
-                    porta mauris, ut sollicitudin lacus nibh vitae ligula. In
-                    tempus sapien non lacus porta dictum. Mauris convallis
-                    dapibus dictum. Nam convallis ex eget quam sagittis, eu
-                    tristique odio efficitur.
-                </p>
-            </div>
-        </section>
-
-        <section id="newsletter">
-            <div class="container">
-                <h1>Subscribe To Our Newsletter</h1>
-                <form>
-                    <input
-                        type="email"
-                        placeholder="Enter Email..."
-                        name=""
-                        id=""
-                    />
-                    <button type="submit" class="button1">Subscribe</button>
-                </form>
-            </div>
-        </section>
-
         <section id="boxes">
             <div class="container">
                 <div class="box">
@@ -87,9 +89,51 @@
                 </div>
             </div>
         </section>
-
+        <section class="section-table">
+            <div>
+                <h4>Personal Project</h4>
+            </div>
+            <div>
+                <table class="table table-project">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Language</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Arduino Plant Watering System</td>
+                            <td>
+                                Embedded project that monitor the water level of
+                                a plant with android integration for UI.
+                            </td>
+                            <td>C++, Java</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>React Project</td>
+                            <td>Landing page created using React framework</td>
+                            <td>React, Javascript</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Laravel CRUD Project</td>
+                            <td>
+                                Simple CRUD function created using Laravel
+                                framework
+                            </td>
+                            <td>Laravel, PHP</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <footer>
-            <p>Web Frame, Copyright &copy; 2017</p>
+            <p>Wan Firdaus, Copyright &copy; 2017</p>
         </footer>
     </body>
 </html>
