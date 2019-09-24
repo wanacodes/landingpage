@@ -122,17 +122,6 @@ a:hover {
     font-size: 20px;
 }
 
-#boxes {
-    margin-top: 20px;
-}
-
-#boxes .box {
-    float: left;
-    text-align: center;
-    width: 30%;
-    padding: 10px;
-}
-
 /* Sidebar */
 
 #sidebar {
@@ -144,6 +133,11 @@ a:hover {
 #main-col {
     float: left;
     width: 65%;
+}
+
+section {
+    width: 100%;
+    height: auto;
 }
 .section-table {
     margin-right: auto;
@@ -157,12 +151,22 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
     max-width: 1100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer {
-    padding: 20px;
-    margin-top: 20px;
-    color: #ffffff;
+    width: 100%;
+    min-height: 50px;
     background-color: #191919;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    color: white;
+    width: inherit;
     text-align: center;
 }
